@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelling Website</title>
+    <link rel="shortcut icon" href="img/me.jpg" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">EXPLORATION</h1>
+      <ul class="nav-links">
+        <li class="active"><a href=""></a>Home</li>
+        <li><a href=""></a>Tours</li>
+        <li><a href=""></a>Explore</li>
+        <li><a href=""></a>About</li>
+        <li class="ctn"><a href=""></a>Contact</li>
+      </ul>
+      <img src="img/menu-btn.png" alt="" class="menu-btn" />
+    </nav>
+
+    <!-- --------------------------------------------- -->
+    <header>
+      <div class="header-content">
+        <h2>Discover the diverse world</h2>
+        <div class="line"></div>
+        <h1>A Precious Present</h1>
+        <a href="" class="ctn">Learn More</a>
+      </div>
+    </header>
+
+    <!-- EVENTS -->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row1">
+        <div class="col1">
+          <img src="img/image3.jpg" alt="background-image" />
+          <h4>Trekking Adventure</h4>
+          <p>
+            Conquering Everest's base camp, we're fueled by awe-inspiring vistas and determination. Guided by experienced Sherpas, we brave icy slopes, pushing our limits. Each step towards the summit brings triumph, etching epic memories in our souls.
+          </p>
+          <a href="" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col1">
+          <img src="img/image2.jpg" alt="background-image" />
+          <h4>Summer Holidays</h4>
+          <p>
+            Immerse yourself in nature's embrace on a walking holiday. Discover hidden trails, lush forests, and scenic coastlines. Explore picturesque villages, encounter friendly locals, and breathe in the fresh air. Create unforgettable memories and rejuvenate your soul with each stride.
+          </p>
+          <a href="" class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <!-- EXPLORE-------------------- -->
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>
+            Explore the world, where new horizons await. Discover cultures, wonders, and landscapes. Wander, taste, and embrace traditions. From mountains to beaches, uncover beauty. Ignite curiosity, create adventures, and expand horizons.        </p>
+        <a href="" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <!-- TOURS-------------------- -->
+
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS AND DESTINATIONS</h1>
+          <p>
+            Join us on our upcoming tours to breathtaking destinations. Experience the sun-kissed bliss of pristine beaches, where turquoise waters and golden sands beckon. Embark on an epic adventure to conquer Everest's majestic heights, pushing your limits and immersing yourself in awe-inspiring vistas. Indulge in the timeless beauty of the iconic Taj Mahal, a testament to love and architectural marvel. Whether you seek relaxation, adrenaline, or cultural wonders, our tours offer the perfect blend of exploration and enchantment. Get ready to create lifelong memories in these extraordinary destinations.
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img class="images" src="img/bg2.jpg" alt="image" />
+            <img class="images" src="img/image3.jpg" alt="image" />
+            <img class="images" src="img/image4.jpg" alt="image" />
+            <img class="images" src="img/image5.jpg" alt="image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------- -->
+
+    <footer class="footer">
+      <p>
+        R.E Colony, Jitpur Gomoh,Dhanbad,Jharkhand | Phone:9798409954 | Email:vimalkxyz9@gmail.com
+      </p>
+      <p>Copyright © 2023 facto_vimal</p>
+    </footer>
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
